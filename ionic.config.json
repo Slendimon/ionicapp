@@ -1,0 +1,7 @@
+{
+  "name": "PDM_ionic_",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

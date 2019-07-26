@@ -1,0 +1,90 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title text-center>
+      Turismo en Tacna
+    </ion-title>
+    <ion-icon slot="end" name="menu"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content no-padding>
+  <ion-slides pager="true">
+    <ion-slide>
+      <img src="../../assets/tacna_plaza.jpeg" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/panina.png" alt="">
+    </ion-slide>
+    <ion-slide>
+      <img src="../../assets/aalianza.jpg" alt="">
+    </ion-slide>
+  </ion-slides>
+
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="3" text-center>
+        <ion-icon name ="card" (click)="openPage()"></ion-icon>
+      </ion-col>
+      <ion-col size="3" text-center>
+        <ion-icon name ="person" (click)="loadPage()"></ion-icon>
+      </ion-col>
+      <ion-col size="3" text-center>
+        <ion-icon name ="pin" (click)="openToast()"></ion-icon>
+      </ion-col>
+      <ion-col size="3" text-center>
+        <ion-icon name ="bus"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Increibles descuentos</ion-card-subtitle>
+      <ion-card-title>Vive la mejor experiencia</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Por inauguración daremos un paseo gratis.
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="../../assets/trip1.jpg" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>Primer Paquete</h2>
+        <p>incluye viaje por la campiña, paseo al monumento
+          alto de la alianza
+        </p>
+        <ion-badge color="primary" mode="ios">S/ 42.0</ion-badge>
+      </ion-label>
+    <ion-icon slot="end" name="arrow-forward"></ion-icon>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="../../assets/trip2.jpg" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>Segundo Paquete</h2>
+        <p>incluye viaje por la campiña, paseo al monumento
+          alto de la alianza
+        </p>
+        <ion-badge color="primary" mode="ios">S/ 42.0</ion-badge>
+      </ion-label>
+      <ion-icon slot="end" name="arrow-forward"></ion-icon>
+    </ion-item>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="../../assets/trip3.jpg" />
+      </ion-thumbnail>
+      <ion-label>
+        <h2>Tercer Paquete</h2>
+        <p>incluye viaje por la campiña, paseo al monumento
+          alto de la alianza
+        </p>
+        <ion-badge color="primary" mode="ios">S/ 42.0</ion-badge>
+      </ion-label>
+      <ion-icon slot="end" name="arrow-forward"></ion-icon>
+    </ion-item>
+  </ion-list>
+  
+</ion-content>
